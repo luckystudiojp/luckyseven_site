@@ -5,8 +5,8 @@ consultancy. Pure HTML/CSS/vanilla JS, no framework, no build step, no database.
 `luckyseven-tuner.html` is a personal tinkering copy with live sliders for the particle
 motion — NOT part of the live site, don't touch it as part of site work.
 
-Repo: github.com/cranno/luckyseven_site, branch `main`. Gavin pushes are done via plain
-`git` (no `gh` CLI installed). Domain `luckyseven.jp` currently runs the old live
+Repo: github.com/luckystudiojp/luckyseven_site, branch `main`. Gavin pushes are done via
+plain `git` (no `gh` CLI installed). Domain `luckyseven.jp` currently runs the old live
 Squarespace site — this repo is the replacement, not yet connected to the domain.
 
 ## Locked — do not change without explicit sign-off
@@ -73,12 +73,13 @@ DNS records untouched.
 
 ## Known gotchas already solved once — don't rediscover these
 
-- **GitHub Pages preview is already live** at `cranno.github.io/luckyseven_site` (repo
-  Settings → Pages → Deploy from branch → `main` / root). Gavin doesn't want his
-  personal handle `cranno` in a public URL long-term (he's known by it elsewhere online)
-  — plan is to move the repo to a GitHub Organization (e.g. `luckyseven`) before ever
-  connecting the real domain, giving `luckyseven.github.io` instead. Not done yet,
-  intentionally deferred until mobile + domain-connect time.
+- **Repo now lives under the `luckystudiojp` GitHub org**, transferred from personal
+  account `cranno` on 2026-07-22. GitHub Pages preview is live at
+  `luckystudiojp.github.io/luckyseven_site` (carried over automatically through the
+  transfer, confirmed working). `cranno` stays reserved for Gavin's personal/non-client
+  projects; `luckystudiojp` is the umbrella org for Lucky Seven and other consulting
+  client work — solo org, free tier, no billing implications. Local git remote already
+  updated to point at the new location.
 - **The contact email `hello@luckyseven.jp` bounces** — it's a placeholder that was
   never actually provisioned as a real mailbox. Gavin's current live Squarespace
   contact form actually delivers to his personal iCloud address. He's said he'll create
